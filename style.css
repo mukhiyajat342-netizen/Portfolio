@@ -383,4 +383,19 @@ footer {
   padding: 22px;
   font-size: 0.92rem;
 }
+.gray-bg {
+  background-color: #e9eef8;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #1e293b;
+}
+
+.section-title i {
+  color: #4f46e5;
+  margin-right: 8px;
+}
 
