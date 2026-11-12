@@ -295,7 +295,7 @@ body {
   font-size: 0.94rem;
 }
 
-/* Contact Section */
+
 .contact-list {
   list-style: none;
   margin-top: 20px;
@@ -349,7 +349,7 @@ body {
   font-size: 0.92rem;
 }
 
-/* Modal */
+
 .modal {
   display: none;
   position: fixed;
@@ -375,7 +375,7 @@ body {
   cursor: pointer;
 }
 
-/* Footer */
+
 footer {
   background-color: #13113c;
   color: #cbd5e1;
@@ -398,4 +398,36 @@ footer {
   color: #4f46e5;
   margin-right: 8px;
 }
+logo {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.logo i {
+  color: #facc15;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.nav-item {
+  color: #cbd5e1;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+.nav-item:hover,
+.nav-item.active {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
 
