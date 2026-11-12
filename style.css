@@ -99,4 +99,173 @@ body {
   gap: 14px;
   flex-wrap: wrap;
 }
+.card {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 26px;
+  box-shadow: 0 6px 20px rgba(15, 23, 42, 0.08);
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+/* About Section */
+.about-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 12px;
+  color: #4f46e5;
+}
+
+.about-card p {
+  color: #475569;
+  margin-bottom: 14px;
+}
+
+.about-highlights {
+  margin-top: 24px;
+}
+
+.mini-box {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  background-color: #f4f6fb;
+  padding: 16px;
+  border-radius: 10px;
+}
+
+.mini-box i {
+  font-size: 1.4rem;
+  color: #4f46e5;
+  margin-top: 4px;
+}
+
+.mini-box h4 {
+  font-size: 1rem;
+  margin-bottom: 4px;
+}
+
+.mini-box p {
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+/* Education Timeline */
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.year-badge {
+  display: inline-block;
+  background-color: #4f46e5;
+  color: #ffffff;
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.timeline-item h3 {
+  font-size: 1.25rem;
+}
+
+.timeline-item h4 {
+  color: #4f46e5;
+  font-weight: 600;
+  margin: 4px 0 8px;
+}
+
+.timeline-item p {
+  color: #475569;
+}
+
+/* Skills Section */
+.card-heading {
+  margin-bottom: 20px;
+  font-size: 1.25rem;
+  color: #4f46e5;
+}
+
+.skill-bar {
+  margin-bottom: 16px;
+}
+
+.skill-info {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+}
+
+.progress {
+  width: 100%;
+  height: 10px;
+  background-color: #e2e8f0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #4f46e5, #818cf8);
+  border-radius: 10px;
+}
+
+/* Projects */
+.project-banner {
+  height: 120px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.banner-purple { background: linear-gradient(135deg, #4f46e5, #7c3aed); }
+.banner-blue { background: linear-gradient(135deg, #0284c7, #2563eb); }
+.banner-green { background: linear-gradient(135deg, #059669, #10b981); }
+
+.project-card p {
+  color: #475569;
+  font-size: 0.94rem;
+  margin: 10px 0 14px;
+}
+
+.tags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.tags span {
+  background-color: #f4f6fb;
+  border: 1px solid #e2e8f0;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
 
