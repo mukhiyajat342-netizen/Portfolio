@@ -3,3 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: #f4f6fb;
+  color: #1e293b;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section {
+  padding: 70px 0;
+}
