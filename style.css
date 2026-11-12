@@ -18,3 +18,22 @@ body {
 .section {
   padding: 70px 0;
 }
+.nav-container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 14px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #13113c;
+  color: #ffffff;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+}
+
