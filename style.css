@@ -8,13 +8,11 @@ body {
   color: #1e293b;
   line-height: 1.6;
 }
-
 .container {
   max-width: 1120px;
   margin: 0 auto;
   padding: 0 20px;
 }
-
 .section {
   padding: 70px 0;
 }
@@ -41,7 +39,6 @@ body {
   color: #ffffff;
   padding: 85px 0;
 }
-
 .hero-flex {
   display: flex;
   align-items: center;
@@ -49,7 +46,6 @@ body {
   flex-wrap: wrap;
   gap: 45px;
 }
-
 .hero-avatar img {
   width: 230px;
   height: 230px;
@@ -59,11 +55,9 @@ body {
   object-fit: cover;
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
 }
-
 .hero-content {
   max-width: 620px;
 }
-
 .badge {
   display: inline-block;
   background-color: rgba(255, 255, 255, 0.15);
@@ -72,28 +66,23 @@ body {
   font-size: 0.9rem;
   margin-bottom: 14px;
 }
-
 .hero-content h1 {
   font-size: 2.8rem;
   line-height: 1.2;
 }
-
 .highlight {
   color: #facc15;
 }
-
 .hero-content h2 {
   font-size: 1.3rem;
   font-weight: 500;
   color: #e0e7ff;
   margin: 8px 0 16px;
 }
-
 .hero-sub {
   color: #cbd5e1;
   margin-bottom: 26px;
 }
-
 .hero-buttons {
   display: flex;
   gap: 14px;
@@ -106,41 +95,33 @@ body {
   padding: 26px;
   box-shadow: 0 6px 20px rgba(15, 23, 42, 0.08);
 }
-
 .grid-2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 24px;
 }
-
 .grid-3 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 24px;
 }
-
 .grid-4 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 20px;
 }
-
-
 .about-card h3 {
   font-size: 1.4rem;
   margin-bottom: 12px;
   color: #4f46e5;
 }
-
 .about-card p {
   color: #475569;
   margin-bottom: 14px;
 }
-
 .about-highlights {
   margin-top: 24px;
 }
-
 .mini-box {
   display: flex;
   gap: 12px;
@@ -149,30 +130,25 @@ body {
   padding: 16px;
   border-radius: 10px;
 }
-
 .mini-box i {
   font-size: 1.4rem;
   color: #4f46e5;
   margin-top: 4px;
 }
-
 .mini-box h4 {
   font-size: 1rem;
   margin-bottom: 4px;
 }
-
 .mini-box p {
   font-size: 0.9rem;
   margin: 0;
 }
-
 
 .timeline {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-
 .year-badge {
   display: inline-block;
   background-color: #4f46e5;
@@ -183,32 +159,25 @@ body {
   border-radius: 20px;
   margin-bottom: 10px;
 }
-
 .timeline-item h3 {
   font-size: 1.25rem;
 }
-
 .timeline-item h4 {
   color: #4f46e5;
   font-weight: 600;
   margin: 4px 0 8px;
 }
-
 .timeline-item p {
   color: #475569;
 }
-
-
 .card-heading {
   margin-bottom: 20px;
   font-size: 1.25rem;
   color: #4f46e5;
 }
-
 .skill-bar {
   margin-bottom: 16px;
 }
-
 .skill-info {
   display: flex;
   justify-content: space-between;
@@ -216,7 +185,6 @@ body {
   margin-bottom: 6px;
   font-size: 0.95rem;
 }
-
 .progress {
   width: 100%;
   height: 10px;
@@ -224,14 +192,11 @@ body {
   border-radius: 10px;
   overflow: hidden;
 }
-
 .progress-fill {
   height: 100%;
   background: linear-gradient(90deg, #4f46e5, #818cf8);
   border-radius: 10px;
 }
-
-
 .project-banner {
   height: 120px;
   border-radius: 10px;
@@ -252,14 +217,12 @@ body {
   font-size: 0.94rem;
   margin: 10px 0 14px;
 }
-
 .tags {
   display: flex;
   gap: 8px;
   flex-wrap: wrap;
   margin-bottom: 16px;
 }
-
 .tags span {
   background-color: #f4f6fb;
   border: 1px solid #e2e8f0;
@@ -271,36 +234,28 @@ body {
 .hobby-card {
   text-align: center;
 }
-
 .hobby-icon {
   font-size: 2.2rem;
   color: #4f46e5;
   margin-bottom: 12px;
 }
-
 .hobby-card p {
   color: #475569;
   font-size: 0.92rem;
   margin-top: 8px;
 }
-
-/* Achievements */
 .achievement-card h3 {
   font-size: 1.15rem;
   margin-bottom: 8px;
 }
-
 .achievement-card p {
   color: #475569;
   font-size: 0.94rem;
 }
-
-
 .contact-list {
   list-style: none;
   margin-top: 20px;
 }
-
 .contact-list li {
   display: flex;
   align-items: center;
@@ -308,29 +263,24 @@ body {
   margin-bottom: 14px;
   color: #475569;
 }
-
 .contact-list i {
   color: #4f46e5;
   font-size: 1.1rem;
   width: 20px;
 }
-
 .contact-list a {
   color: #4f46e5;
   text-decoration: none;
   font-weight: 600;
 }
-
 .form-group {
   margin-bottom: 16px;
 }
-
 .form-group label {
   display: block;
   font-weight: 600;
   margin-bottom: 6px;
 }
-
 .form-group input,
 .form-group textarea {
   width: 100%;
@@ -342,14 +292,11 @@ body {
   font-family: inherit;
   font-size: 0.95rem;
 }
-
 .feedback-msg {
   margin-top: 12px;
   font-weight: 600;
   font-size: 0.92rem;
 }
-
-
 .modal {
   display: none;
   position: fixed;
@@ -360,13 +307,11 @@ body {
   z-index: 2000;
   padding: 20px;
 }
-
 .modal-content {
   max-width: 480px;
   width: 100%;
   position: relative;
 }
-
 .close-modal {
   position: absolute;
   top: 14px;
@@ -374,7 +319,6 @@ body {
   font-size: 1.6rem;
   cursor: pointer;
 }
-
 
 footer {
   background-color: #13113c;
@@ -386,14 +330,12 @@ footer {
 .gray-bg {
   background-color: #e9eef8;
 }
-
 .section-title {
   text-align: center;
   font-size: 2rem;
   margin-bottom: 40px;
   color: #1e293b;
 }
-
 .section-title i {
   color: #4f46e5;
   margin-right: 8px;
@@ -404,17 +346,14 @@ logo {
   color: #ffffff;
   text-decoration: none;
 }
-
 .logo i {
   color: #facc15;
 }
-
 .nav-links {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
 }
-
 .nav-item {
   color: #cbd5e1;
   text-decoration: none;
@@ -423,7 +362,6 @@ logo {
   padding: 6px 10px;
   border-radius: 6px;
 }
-
 .nav-item:hover,
 .nav-item.active {
   color: #ffffff;
